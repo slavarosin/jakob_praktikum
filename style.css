@@ -1,0 +1,26 @@
+li {
+    display: inline;
+    margin: 40px;
+}
+a {
+    color: white;
+}
+.container {
+    font-family: 'Roboto', sans-serif;
+    background: rgb(0, 0, 0);
+    padding: 0,10px;
+    font-size: 150%;
+}
+html {
+    background: rgb(0, 100, 146);
+}
+p {
+    color: wheat;
+    background: black;
+    margin: 0,100px;
+    position: relative;
+    left: 50%;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 200%;
+}
