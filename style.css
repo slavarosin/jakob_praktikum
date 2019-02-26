@@ -1,26 +1,36 @@
+ul {
+    margin: 0;
+    padding: 0;
+}
 li {
     display: inline;
-    margin: 40px;
 }
 a {
-    color: white;
+    color: rgb(255, 255, 255);
+    padding: 0px 15px;
 }
-.container {
+.toolbar {
     font-family: 'Roboto', sans-serif;
-    background: rgb(0, 0, 0);
-    padding: 0,10px;
+    background: black;
     font-size: 150%;
+    margin: -8px;
 }
 html {
-    background: rgb(0, 100, 146);
+    background: #1e1e1e;
+}
+.students_props {
+    font-size: 200%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
 }
 p {
-    color: wheat;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 150%;
+    display: inline;
     background: black;
-    margin: 0,100px;
-    position: relative;
-    left: 50%;
-
+    color: white;
+}
+.students {
     font-family: 'Roboto', sans-serif;
-    font-size: 200%;
+    font-size: 120%;
 }

@@ -1,6 +1,6 @@
 <header>
     <link rel="stylesheet" href="style.css">
-    <div class="container">
+    <div class="toolbar">
       <nav>
         <ul>
           <li><a href="Home.html">Home</a><li>
@@ -8,13 +8,24 @@
           <li><a href="About.html">About</a><li>
        </ul>
     </div>
-       <p>MPR 9C</p>
-       <ul class="stundents_props">
-         <li>Vorname</li>
-         <li>Nachname</li>
+       <p><br> MPR 9C</p>
+       <div id="myBtnContainer">
+          <button class="btn active" onclick="filterSelection('all')"> Alle</button>
+          <button class="btn" onclick="filterSelection('cars')"> Alle Jungs</button>
+          <button class="btn" onclick="filterSelection('animals')"> Alle Mädchen</button>
+          <button class="btn" onclick="filterSelection('fruits')"> Nachname A-Z</button>
+          <button class="btn" onclick="filterSelection('colors')"> Vorname A-Z</button>
+        </div>
+       <div class="students_props">
+         <ul>
+         <li>Vorname |</li>
+         <li>Nachname |</li>
          <li>Geschlecht</li>
-       </ul>   
+        </ul>
+       </div> 
       </nav>
-  </header>
-  
+      <div class="students">
+        <p><br> Jakob Radunski</p><p>Männlich</p>
+      </div>
+  </header> 
   
