@@ -2,39 +2,47 @@ ul {
     margin: 0;
     padding: 0;
 }
+
 li {
     display: inline;
 }
+
 a {
     color: rgb(255, 255, 255);
     padding: 0px 15px;
 }
+
 .toolbar {
     font-family: 'Roboto', sans-serif;
     background: black;
     font-size: 150%;
     margin: -8px;
-    padding-top: 15px; 
+    padding-top: 15px;
 }
+
 html {
     background: #1e1e1e;
 }
+
 .students_props {
     font-size: 120%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
 }
+
 p {
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'Roboto', sans-serif;
     font-size: 150%;
     display: inline;
     background: black;
     color: white;
 }
+
 .students {
     font-family: 'Roboto', sans-serif;
-    font-size: 130%;
+    font-size: 40%;
 }
+
 .btn {
     font-size: 120%;
     padding: 20px;
@@ -44,19 +52,38 @@ p {
     border: none;
     outline: none;
 }
+
 .btn:hover {
     background-color: rgb(0, 0, 100);
 }
+
 .btn:active {
     background-color: rgb(0, 0, 24);
 }
+
 .filterDiv_male {
+    display: none;
     float: left;
     width: 50%;
     padding: 10px;
-  }
-  .filterDiv_female:after {
+}
+
+.filterDiv_female {
+    display: none;
+}
+.birth_2003 {
+    display: none;
+}
+.birth_2004 {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.filterDiv_female:after {
     content: "";
     display: table;
     clear: both;
-  }
+}
